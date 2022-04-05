@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
-import React from "react";
+import User from "./User";
 
 export default function Header() {
   const router = useRouter();
@@ -30,7 +30,7 @@ export default function Header() {
         >
           Images
         </a>
-        {/* <User /> */}
+        <User />
       </div>
     </header>
   );
