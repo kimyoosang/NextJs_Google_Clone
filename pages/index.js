@@ -4,6 +4,7 @@ import Header from "../components/Header";
 import { useRouter } from "next/router";
 import { SearchIcon, MicrophoneIcon } from "@heroicons/react/solid";
 import { useRef } from "react";
+import Footer from "./Footer";
 
 export default function Home() {
   const router = useRouter();
@@ -53,6 +54,7 @@ export default function Home() {
         </div>
       </form>
       {/* Footer */}
+      <Footer />
     </div>
   );
 }
